@@ -563,3 +563,11 @@ local shown = true
 CB.MouseButton1Click:Connect(function()
     shown = not shown Win.Visible = shown
   end
+        if i.KeyCode==Enum.KeyCode.H then
+        if _BallTpFn then _BallTpFn() end
+    end
+end)
+
+pcall(function()
+    _RAYY = true
+end)
